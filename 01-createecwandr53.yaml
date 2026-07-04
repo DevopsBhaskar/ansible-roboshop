@@ -1,6 +1,6 @@
 - name: creating EC2 and Route53 record
   hosts: local
-  becomes: local
+  connection: local
   vars: 
     ami-id: ami-0220d79f3f480ecf5
     sg_id: sg-0c13a378f7afe6627
