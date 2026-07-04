@@ -6,8 +6,8 @@
     sg_id: sg-0c13a378f7afe6627
     zone_id: Z0986635317WY27GWNQ5N
     domain_name: devopsbhaskar.fun
-  instances:
-  - mongodb
+    instances:
+    - mongodb
 
   tasks: 
   - name: creating ec2 instances
