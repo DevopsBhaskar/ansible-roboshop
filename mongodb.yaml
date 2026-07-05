@@ -8,7 +8,7 @@
       dest: /etc/yum.repos.d/mongo.repo
 
   - name: install mongo repo
-    anisble.builtin.package:
+    ansible.builtin.package:
       name: mongodb-org
       state: present
 
