@@ -8,6 +8,7 @@
     domain_name: devopsbhaskar.fun
     instances:
     - mongodb
+    - redis
 
   tasks: 
   - name: creating ec2 instances
