@@ -6,10 +6,11 @@
     sg_id: sg-0c13a378f7afe6627
     zone_id: Z0986635317WY27GWNQ5N
     domain_name: devopsbhaskar.fun
-    instances:
-    - mongodb
-    - redis
-    - mysql
+    # we can pass instances through command line using -e
+    # instances:
+    # - mongodb
+    # - redis
+    # - mysql
 
   tasks: 
   - name: creating ec2 instances
